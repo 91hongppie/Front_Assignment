@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+div {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+div::-webkit-scrollbar {
+    display: none;
+}
